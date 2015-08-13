@@ -2,7 +2,7 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsListSnippets="<leader>e"
 let g:snips_author="Jeremy Seago <seagoj@gmail.com>"
 
-nnoremap <C-e> <Esc>:UltiSnipsEdit<cr>
+nnoremap <leader>e <Esc>:UltiSnipsEdit<cr>
 
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
